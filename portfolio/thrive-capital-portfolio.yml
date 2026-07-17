@@ -1,0 +1,494 @@
+generated: '2026-07-17'
+method: searched
+source: https://en.wikipedia.org/wiki/Thrive_Capital
+summary:
+  portfolio_total: 45
+  in_network: 34
+  api_providers: 21
+  missing: 11
+  stubs_created: 0
+companies:
+- name: OpenAI
+  url: https://openai.com
+  description: Artificial intelligence research and deployment company behind ChatGPT and the GPT models.
+  sector: artificial-intelligence
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: openai
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Stripe
+  url: https://stripe.com
+  description: Payments and financial infrastructure platform for internet businesses.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: stripe
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: SpaceX
+  url: https://www.spacex.com
+  description: Aerospace manufacturer and launch/space services provider.
+  sector: aerospace
+  stage: late-stage
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: spacex-api
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Instagram
+  url: https://www.instagram.com
+  description: Photo and video sharing social network.
+  sector: consumer
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: instagram
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: GitHub
+  url: https://github.com
+  description: Developer platform for hosting and collaborating on code.
+  sector: developer-tools
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: github
+  in_network: true
+  is_api_provider: true
+  matched_by: name-slug
+- name: Databricks
+  url: https://www.databricks.com
+  description: Data and AI platform built around the lakehouse architecture.
+  sector: data-ai
+  stage: late-stage
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: databricks
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Scale AI
+  url: https://scale.com
+  description: Data labeling and infrastructure platform for AI and machine learning.
+  sector: artificial-intelligence
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: scale-ai
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Ramp
+  url: https://ramp.com
+  description: Corporate cards and spend management platform.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: ramp
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Plaid
+  url: https://plaid.com
+  description: Financial data network connecting apps to bank accounts.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: plaid
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Anduril Industries
+  url: https://www.anduril.com
+  description: Defense technology company building autonomous systems and software.
+  sector: defense
+  stage: late-stage
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: anduril
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Robinhood
+  url: https://robinhood.com
+  description: Commission-free stock and crypto trading platform.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: robinhood
+- name: Affirm
+  url: https://www.affirm.com
+  description: Buy-now-pay-later consumer lending platform.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: affirm
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Nubank
+  url: https://nubank.com.br
+  description: Digital bank and financial services provider in Latin America.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: nubank
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Monzo
+  url: https://monzo.com
+  description: UK digital challenger bank.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: neobanks
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Slack
+  url: https://slack.com
+  description: Business messaging and collaboration platform.
+  sector: enterprise
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: slack
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Airtable
+  url: https://www.airtable.com
+  description: Low-code platform combining spreadsheet and database functionality.
+  sector: enterprise
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: airtable
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Spotify
+  url: https://www.spotify.com
+  description: Audio streaming and media services platform.
+  sector: consumer
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: spotify
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Twitch
+  url: https://www.twitch.tv
+  description: Live streaming platform for gaming and creators.
+  sector: consumer
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: twitch
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Unity
+  url: https://unity.com
+  description: Real-time 3D development platform and game engine.
+  sector: developer-tools
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: unity
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Oscar Health
+  url: https://www.hioscar.com
+  description: Technology-driven health insurance company.
+  sector: healthcare
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: oscar-health
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Hims & Hers
+  url: https://www.hims.com
+  description: Direct-to-consumer telehealth and wellness platform.
+  sector: healthcare
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: hims-and-hers
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Lemonade
+  url: https://www.lemonade.com
+  description: AI-driven digital insurance company.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: lemonade
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Compass
+  url: https://www.compass.com
+  description: Technology-enabled residential real estate brokerage.
+  sector: real-estate
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: compass
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Opendoor
+  url: https://www.opendoor.com
+  description: Online platform for buying and selling homes.
+  sector: real-estate
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: opendoor
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Warby Parker
+  url: https://www.warbyparker.com
+  description: Direct-to-consumer eyewear brand and retailer.
+  sector: consumer
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: warby-parker
+- name: Glossier
+  url: https://www.glossier.com
+  description: Direct-to-consumer beauty and skincare brand.
+  sector: consumer
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: glossier
+- name: Skims
+  url: https://skims.com
+  description: Shapewear and apparel brand.
+  sector: consumer
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: skims
+- name: Fanatics
+  url: https://www.fanatics.com
+  description: Licensed sports merchandise and digital sports platform.
+  sector: consumer
+  stage: late-stage
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: fanatics
+- name: A24
+  url: https://a24films.com
+  description: Independent film and television production and distribution company.
+  sector: media
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: a24
+- name: Patreon
+  url: https://www.patreon.com
+  description: Membership platform for creators to earn from subscribers.
+  sector: consumer
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: patreon
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Kickstarter
+  url: https://www.kickstarter.com
+  description: Crowdfunding platform for creative projects.
+  sector: consumer
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: kickstarter
+- name: Mapbox
+  url: https://www.mapbox.com
+  description: Mapping and location data platform for developers.
+  sector: developer-tools
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: mapbox
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Greenhouse
+  url: https://www.greenhouse.io
+  description: Recruiting and applicant tracking software.
+  sector: enterprise
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: greenhouse
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Codecademy
+  url: https://www.codecademy.com
+  description: Online interactive coding education platform.
+  sector: education
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: codecademy
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: ClassPass
+  url: https://classpass.com
+  description: Subscription marketplace for fitness classes and wellness.
+  sector: consumer
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: classpass
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Artsy
+  url: https://www.artsy.net
+  description: Online art marketplace and discovery platform.
+  sector: consumer
+  stage: series-a
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: artsy
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Cadre
+  url: https://cadre.com
+  description: Online real estate investment platform.
+  sector: real-estate
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: cadre
+- name: OpenGov
+  url: https://opengov.com
+  description: Cloud software for government budgeting and operations.
+  sector: govtech
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: public-sector
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Cursor
+  url: https://cursor.com
+  description: AI-powered code editor built by Anysphere.
+  sector: developer-tools
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: cursor
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Anysphere
+  url: https://anysphere.inc
+  description: AI research company and maker of the Cursor code editor.
+  sector: developer-tools
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: anysphere
+- name: Physical Intelligence
+  url: https://www.physicalintelligence.company
+  description: AI company building foundation models for robotics.
+  sector: artificial-intelligence
+  stage: series-a
+  status: active
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: physical-intelligence
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Wiz
+  url: https://www.wiz.io
+  description: Cloud security platform for cloud infrastructure risk.
+  sector: security
+  stage: late-stage
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: wiz
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: GroupMe
+  url: https://groupme.com
+  description: Group messaging application.
+  sector: consumer
+  stage: seed
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: groupme
+- name: Spring
+  url: https://www.shopspring.com
+  description: Mobile shopping marketplace for brands.
+  sector: consumer
+  stage: series-a
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  slug: spring
+  in_network: true
+  is_api_provider: true
+  matched_by: name-slug
+- name: Neverware
+  url: https://www.neverware.com
+  description: Software that turns old PCs into Chromebooks (CloudReady).
+  sector: enterprise
+  stage: series-a
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: neverware
