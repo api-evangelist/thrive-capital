@@ -3,9 +3,9 @@ method: searched
 source: https://en.wikipedia.org/wiki/Thrive_Capital
 summary:
   portfolio_total: 45
-  in_network: 34
-  api_providers: 21
-  missing: 11
+  in_network: 45
+  api_providers: 23
+  missing: 0
   stubs_created: 0
 companies:
 - name: OpenAI
@@ -125,9 +125,10 @@ companies:
   stage: growth
   status: ipo
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: robinhood
+  in_network: true
+  is_api_provider: true
+  slug: robinhood
+  matched_by: domain
 - name: Affirm
   url: https://www.affirm.com
   description: Buy-now-pay-later consumer lending platform.
@@ -157,7 +158,7 @@ companies:
   stage: growth
   status: active
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  slug: neobanks
+  slug: monzo
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -278,9 +279,10 @@ companies:
   stage: growth
   status: ipo
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: warby-parker
+  slug: warby-parker
+  matched_by: domain
 - name: Glossier
   url: https://www.glossier.com
   description: Direct-to-consumer beauty and skincare brand.
@@ -288,9 +290,10 @@ companies:
   stage: growth
   status: active
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glossier
+  slug: glossier
+  matched_by: domain
 - name: Skims
   url: https://skims.com
   description: Shapewear and apparel brand.
@@ -298,9 +301,10 @@ companies:
   stage: growth
   status: active
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skims
+  slug: skims
+  matched_by: domain
 - name: Fanatics
   url: https://www.fanatics.com
   description: Licensed sports merchandise and digital sports platform.
@@ -308,9 +312,10 @@ companies:
   stage: late-stage
   status: active
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fanatics
+  slug: fanatics
+  matched_by: domain
 - name: A24
   url: https://a24films.com
   description: Independent film and television production and distribution company.
@@ -318,9 +323,10 @@ companies:
   stage: growth
   status: active
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: a24
+  slug: a24
+  matched_by: domain
 - name: Patreon
   url: https://www.patreon.com
   description: Membership platform for creators to earn from subscribers.
@@ -339,9 +345,10 @@ companies:
   stage: growth
   status: active
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kickstarter
+  slug: kickstarter
+  matched_by: domain
 - name: Mapbox
   url: https://www.mapbox.com
   description: Mapping and location data platform for developers.
@@ -404,9 +411,10 @@ companies:
   stage: growth
   status: acquired
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cadre
+  slug: cadre
+  matched_by: domain
 - name: OpenGov
   url: https://opengov.com
   description: Cloud software for government budgeting and operations.
@@ -436,9 +444,10 @@ companies:
   stage: growth
   status: active
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: anysphere
+  in_network: true
+  is_api_provider: true
+  slug: anysphere
+  matched_by: domain
 - name: Physical Intelligence
   url: https://www.physicalintelligence.company
   description: AI company building foundation models for robotics.
@@ -468,9 +477,10 @@ companies:
   stage: seed
   status: acquired
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: groupme
+  slug: groupme
+  matched_by: domain
 - name: Spring
   url: https://www.shopspring.com
   description: Mobile shopping marketplace for brands.
@@ -489,6 +499,7 @@ companies:
   stage: series-a
   status: acquired
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neverware
+  slug: neverware
+  matched_by: domain

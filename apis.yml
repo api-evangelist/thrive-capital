@@ -13,6 +13,17 @@ description: >-
   former dean of Harvard Business School, serves as executive chairman. Thrive is widely known as one of
   the earliest and most significant backers of OpenAI, Stripe, and SpaceX, and its portfolio includes
   Instagram, GitHub, Databricks, Ramp, Scale AI, Anduril, Robinhood, and Plaid.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://thrivecap.com/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital
