@@ -1,4 +1,11 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: thrive-capital
-leads: []
+leads:
+- name: Spring
+  url: https://www.shopspring.com
+  suggested_slug: shopspring-com
+  sector: consumer
+  source_vc: thrive-capital
+  source: https://en.wikipedia.org/wiki/Thrive_Capital
+  stub_created: false

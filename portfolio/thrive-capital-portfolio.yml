@@ -3,9 +3,9 @@ method: searched
 source: https://en.wikipedia.org/wiki/Thrive_Capital
 summary:
   portfolio_total: 45
-  in_network: 45
-  api_providers: 23
-  missing: 0
+  in_network: 44
+  api_providers: 24
+  missing: 1
   stubs_created: 0
 companies:
 - name: OpenAI
@@ -224,7 +224,7 @@ companies:
   stage: growth
   status: ipo
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  slug: oscar-health
+  slug: oscar
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -400,9 +400,9 @@ companies:
   stage: series-a
   status: active
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  slug: artsy
+  slug: art
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Cadre
   url: https://cadre.com
@@ -422,9 +422,9 @@ companies:
   stage: growth
   status: acquired
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  slug: public-sector
+  slug: opengov
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Cursor
   url: https://cursor.com
@@ -488,10 +488,10 @@ companies:
   stage: series-a
   status: acquired
   source: https://en.wikipedia.org/wiki/Thrive_Capital
-  slug: spring
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: spring
+  suggested_slug: shopspring-com
 - name: Neverware
   url: https://www.neverware.com
   description: Software that turns old PCs into Chromebooks (CloudReady).
